@@ -4,7 +4,7 @@
 	margin:10px;
 }
 #screenDisplay{
-	height: 40px;
+	height: 30px;
 	width:100%;
 	border:1px black solid;
 	text-align: right;
@@ -14,7 +14,8 @@
 	/*height: 460px;*/
 	border:1px black solid;
 	display: flex;
-	background-color: #303F9F;
+	/*background-color: #303F9F;*/
+	background-color: #B6B6B6;
 }
 #buttonStage{
 	display: flex;
@@ -31,10 +32,10 @@
 	text-align: center;
 }
 .numStyle{
-	background-color: #00BCD4;	
+	background-color: #03A9F4;	
 }
 .funcStyle{
-	background-color: #FFEB3B;	
+	background-color: #009688;	
 }
 
 .funcButton{

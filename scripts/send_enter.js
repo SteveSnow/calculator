@@ -1,3 +1,4 @@
-function sendEnter(event){
-	alert("enter button")
+function sendEnter(){
+	var screenVal =document.getElementById("screenDisplay");
+	screenVal.innerHTML=eval(screenVal.innerHTML)
 }

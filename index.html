@@ -5,7 +5,6 @@
 		<link rel="stylesheet" type="text/css" href="css/normal.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-		<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
 	</head>
 	<body>
 		<div id="calc">
@@ -28,11 +27,11 @@
 					<button onclick="sendNumber('.')" class="numButton funcStyle">.</button>
 				</div>
 				<div id="funcStage">
-					<button onclick="sendFunc(event)" class="funcButton funcStyle">x</button>
-					<button onclick="sendFunc(event)" class="funcButton funcStyle">/</button>
-					<button onclick="sendFunc(event)" class="funcButton funcStyle">+</button>
-					<button onclick="sendFunc(event)" class="funcButton funcStyle">-</button>
-					<button onclick="sendEnter(event)" class="funcButton funcStyle">E</button>
+					<button onclick="sendFunc('*')" class="funcButton funcStyle">x</button>
+					<button onclick="sendFunc('/')" class="funcButton funcStyle">/</button>
+					<button onclick="sendFunc('+')" class="funcButton funcStyle">+</button>
+					<button onclick="sendFunc('-')" class="funcButton funcStyle">-</button>
+					<button onclick="sendEnter()" class="funcButton funcStyle">E</button>
 				</div>
 			</div>
 		</div>
@@ -40,5 +39,6 @@
 		<script src="scripts/send_number.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="scripts/send_enter.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="scripts/send_clear.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="scripts/send_func.js" type="text/javascript" charset="utf-8" async defer></script>
 	</body>
 </html>
